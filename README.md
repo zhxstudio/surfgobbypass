@@ -70,26 +70,5 @@ init-signing.ps1           # внутренний помощник подпис�
 
 Целевой пакет меняется в `ShellRunner.java`: `TARGET_PACKAGE = "com.KotGames.SurfGO"`. Стартовая Activity определяется перед отправкой Home и кешируется. Для возврата используется явный компонент Activity.
 
-## Публикация на GitHub
-
-1. Создайте пустой репозиторий и распакуйте подготовленный архив исходников.
-2. Загрузите содержимое папки проекта, включая `gradle/wrapper/gradle-wrapper.jar` и скрытые `.github/`, `.gitignore`.
-3. Не добавляйте `signing/`, `local.properties`, `.gradle/` и каталоги `build/`.
-4. Создайте релиз с тегом `v2.3.0`, вставьте описание из `CHANGELOG.md` и прикрепите собранный APK.
-
-Для публикации из локального Git используйте адрес своего репозитория:
-
-```powershell
-git init
-git add .
-git commit -m "Release surfgobbypass 2.3"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/surfgobbypass.git
-git push -u origin main
-```
-
-## Проверки и обратная связь
-
-Сборка APK и lint проверяются на компьютере. Тесты в `tests/ShellRepliesTest.java` проверяют распознавание ответов shell; они не заменяют проверку на телефоне. При создании issue укажите Android, устройство, Root/Shizuku, версию приложения и диагностику. Перед публикацией логов удалите личные данные.
 
 Проект не является официальным приложением Surf GO. **zhxstudio**.
