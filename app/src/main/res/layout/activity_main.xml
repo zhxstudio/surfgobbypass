@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zhxstudio — surfgobbypass -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:background="#FFFFFF">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <ImageView android:layout_width="80dp" android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher" android:contentDescription="@string/app_name" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/app_name" android:textSize="28sp" android:textStyle="bold" android:letterSpacing="0.02" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/brand" android:textSize="14sp" android:textColor="#1565C0" android:letterSpacing="0.15" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/language" android:layout_marginTop="24dp" />
+        <Spinner android:id="@+id/languages" android:layout_width="match_parent"
+            android:layout_height="56dp" android:background="@drawable/panel" android:layout_marginTop="8dp" android:contentDescription="@string/language" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/method" android:layout_marginTop="16dp" />
+        <RadioGroup android:id="@+id/methods" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/panel" android:layout_marginTop="8dp">
+            <RadioButton android:id="@+id/root_method" android:layout_width="match_parent"
+                android:layout_height="48dp" android:text="@string/root_method" />
+            <RadioButton android:id="@+id/shizuku_method" android:layout_width="match_parent"
+                android:layout_height="48dp" android:text="@string/shizuku_method" />
+        </RadioGroup>
+        <TextView android:id="@+id/size_label" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/size" android:layout_width="match_parent" android:layout_height="48dp"
+            android:max="80" android:progress="16" android:contentDescription="@string/size_desc" />
+        <Button android:id="@+id/start" android:layout_width="match_parent"
+            android:layout_height="56dp" android:text="@string/start" android:background="@drawable/primary_button"
+            android:backgroundTint="@null" android:textColor="#FFFFFF" android:textStyle="bold" android:textAllCaps="false" android:layout_marginTop="12dp" />
+        <Button android:id="@+id/stop" android:layout_width="match_parent"
+            android:layout_height="56dp" android:text="@string/stop" android:background="@drawable/panel"
+            android:backgroundTint="@null" android:textAllCaps="false" android:layout_marginTop="12dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:text="@string/hint" android:textColor="#5F6368" android:lineSpacingExtra="4dp" />
+        <Button android:id="@+id/diagnostics" android:layout_width="match_parent"
+            android:layout_height="56dp" android:text="@string/diagnostics" android:background="@drawable/panel"
+            android:backgroundTint="@null" android:textAllCaps="false" android:layout_marginTop="16dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="32dp" android:gravity="center" android:text="@string/brand"
+            android:textColor="#1565C0" android:textStyle="bold" android:letterSpacing="0.15" />
+    </LinearLayout>
+</ScrollView>

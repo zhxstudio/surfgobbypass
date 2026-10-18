@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zhxstudio -->
+<resources>
+    <string name="target_not_found">Не найдена стартовая Activity Surf GO. Проверьте пакет игры; подробности в диагностике.</string>
+    <string name="home_failed">Android отклонил переход на главный экран. Подробности в диагностике.</string>
+    <string name="diagnostics">Диагностика</string>
+    <string name="copy">Скопировать</string>
+    <string name="no_error">Нет сохранённой ошибки</string>
+    <string name="command_timeout">Тайм-аут команды</string>
+    <string name="cancelled">Операция отменена</string>
+    <string name="launch_failed">Запуск не подтверждён:</string>
+    <string name="app_name">surfgobbypass</string>
+    <string name="brand">zhxstudio</string>
+    <string name="bypass">Surf GO</string>
+    <string name="language">Язык</string>
+    <string name="method">Способ доступа</string>
+    <string name="root_method">Root</string>
+    <string name="shizuku_method">Shizuku</string>
+    <string name="size">Размер кнопки: %1$d dp</string>
+    <string name="size_desc">Размер плавающей кнопки</string>
+    <string name="start">Запустить оверлей</string>
+    <string name="stop">Остановить оверлей</string>
+    <string name="hint">Главный экран → возврат в Surf GO. Без остановки процесса и добавленной паузы.</string>
+    <string name="require_shizuku">Запустите Shizuku версии 12 или новее</string>
+    <string name="grant_shizuku">Разрешите доступ в Shizuku</string>
+    <string name="denied_shizuku">Доступ Shizuku не предоставлен</string>
+    <string name="overlay_denied">Разрешите показ поверх других приложений</string>
+    <string name="error">Ошибка</string>
+    <string name="success">Успешный байпас</string>
+    <string name="channel">Плавающая кнопка</string>
+    <string name="notification">Кнопка B активна · zhxstudio</string>
+    <string name="bind_timeout">Тайм-аут подключения Shizuku</string>
+    <string name="disconnected">Shizuku отключён</string>
+    <string name="shizuku_access">Запустите Shizuku и разрешите доступ в главном окне</string>
+    <string name="empty_reply">Пустой ответ Shizuku</string>
+</resources>

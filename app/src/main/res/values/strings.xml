@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zhxstudio -->
+<resources>
+    <string name="target_not_found">Surf GO launcher not found. Check the installed package; see Diagnostics.</string>
+    <string name="home_failed">Android rejected the Home command. See Diagnostics.</string>
+    <string name="diagnostics">Diagnostics</string>
+    <string name="copy">Copy</string>
+    <string name="no_error">No saved error</string>
+    <string name="command_timeout">Command timed out</string>
+    <string name="cancelled">Operation cancelled</string>
+    <string name="launch_failed">Launch not confirmed:</string>
+    <string name="app_name">surfgobbypass</string>
+    <string name="brand">zhxstudio</string>
+    <string name="bypass">Surf GO</string>
+    <string name="language">Language</string>
+    <string name="method">Access method</string>
+    <string name="root_method">Root</string>
+    <string name="shizuku_method">Shizuku</string>
+    <string name="size">Button size: %1$d dp</string>
+    <string name="size_desc">Floating button size</string>
+    <string name="start">Start overlay</string>
+    <string name="stop">Stop overlay</string>
+    <string name="hint">Home → return to Surf GO. No forced stop or added delay.</string>
+    <string name="require_shizuku">Start Shizuku 12 or newer</string>
+    <string name="grant_shizuku">Allow access in Shizuku</string>
+    <string name="denied_shizuku">Shizuku permission denied</string>
+    <string name="overlay_denied">Allow display over other apps</string>
+    <string name="error">Error</string>
+    <string name="success">Bypass successful</string>
+    <string name="channel">Floating button</string>
+    <string name="notification">Button B is active · zhxstudio</string>
+    <string name="bind_timeout">Shizuku connection timed out</string>
+    <string name="disconnected">Shizuku disconnected</string>
+    <string name="shizuku_access">Start Shizuku and grant access in the main screen</string>
+    <string name="empty_reply">Empty Shizuku response</string>
+</resources>

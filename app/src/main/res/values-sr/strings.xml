@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zhxstudio -->
+<resources>
+    <string name="target_not_found">Почетна Activity за Surf GO није пронађена. Проверите пакет игре; детаљи су у дијагностици.</string>
+    <string name="home_failed">Android је одбио повратак на почетни екран. Погледајте дијагностику.</string>
+    <string name="diagnostics">Дијагностика</string>
+    <string name="copy">Копирај</string>
+    <string name="no_error">Нема сачуване грешке</string>
+    <string name="command_timeout">Време за извршавање команде је истекло</string>
+    <string name="cancelled">Операција је отказана</string>
+    <string name="launch_failed">Покретање није потврђено:</string>
+    <string name="app_name">surfgobbypass</string>
+    <string name="brand">zhxstudio</string>
+    <string name="bypass">Surf GO</string>
+    <string name="language">Језик</string>
+    <string name="method">Начин приступа</string>
+    <string name="root_method">Root</string>
+    <string name="shizuku_method">Shizuku</string>
+    <string name="size">Величина дугмета: %1$d dp</string>
+    <string name="size_desc">Величина плутајућег дугмета</string>
+    <string name="start">Покрени плутајуће дугме</string>
+    <string name="stop">Заустави плутајуће дугме</string>
+    <string name="hint">Почетни екран → повратак у Surf GO. Без гашења процеса и додатне паузе.</string>
+    <string name="require_shizuku">Покрените Shizuku верзије 12 или новије</string>
+    <string name="grant_shizuku">Одобрите приступ у Shizuku</string>
+    <string name="denied_shizuku">Приступ преко Shizuku није одобрен</string>
+    <string name="overlay_denied">Дозволите приказ преко других апликација</string>
+    <string name="error">Грешка</string>
+    <string name="success">Успешно заобилажење</string>
+    <string name="channel">Плутајуће дугме</string>
+    <string name="notification">Дугме B је активно · zhxstudio</string>
+    <string name="bind_timeout">Време за повезивање са Shizuku је истекло</string>
+    <string name="disconnected">Shizuku је искључен</string>
+    <string name="shizuku_access">Покрените Shizuku и одобрите приступ на главном екрану</string>
+    <string name="empty_reply">Празан одговор од Shizuku</string>
+</resources>
